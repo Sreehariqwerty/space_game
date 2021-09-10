@@ -9,11 +9,11 @@ git clone https://github.com/Sreehariqwerty/space_game
 ```
 - Then go to the directory and do as follows for your os(not tested on windows :(
 
-# For windows
+ - For windows
 ```
 python main.py
 ```
-# For linux
+- For linux
 ```
 python3 main.py
 ```
@@ -21,12 +21,12 @@ python3 main.py
 # Requirments
 Install coloroma package for colors
 
-# Windows
+- Windows
 ```
 pip install colorama
 ```
 
-# Linux
+- Linux
 ```
 pip3 install colorama
 ```
