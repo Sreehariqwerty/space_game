@@ -7,8 +7,8 @@ root.title("Space App")
 root.geometry("699x600")
 root.config(background="#ffffff")
 root.configure(bg='#ffffff')
-img0 = PhotoImage(file="transparentGradHat.png")
-img1 = PhotoImage(file="Frame.png")
+img0 = PhotoImage(file="./images/transparentGradHat.png")
+img1 = PhotoImage(file="./images/Frame.png")
 
 # TODO make this code Readable
 
