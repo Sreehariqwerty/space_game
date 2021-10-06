@@ -14,7 +14,7 @@ Project layout
 --------------
 
     ├─ installers/      build automation
-    ├─ src/             application source code (see src/nvim/README.md)
+    ├─ src/             application source code
     │  ├─ gui/          GUI
     │  ├─ main/         Quiz     
     |  ├─ image/        Initialising of images
