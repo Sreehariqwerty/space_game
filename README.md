@@ -10,4 +10,12 @@ run the install.bat inside the installers folder to install the code and depende
 - Linux and Mac 
 run the install.sh
 
-# Example
+Project layout
+--------------
+
+    ├─ installers/      build automation
+    ├─ src/             application source code (see src/nvim/README.md)
+    │  ├─ gui/          GUI
+    │  ├─ main/         Quiz     
+    |  ├─ image/        Initialising of images
+    ├─ images/          All the images used 
