@@ -9,6 +9,7 @@ c.init(autoreset = True )
 # Import the questions
 import quest as q
 
+ar = Fore.LIGHTWHITE_EX + "==> "
 
 # Acesses the variable for the questions
 a = q.a
@@ -47,22 +48,23 @@ print(Fore.LIGHTBLUE_EX + '''
             ''')
 print(Fore.CYAN + '''These are the rules
 
-1. If you are wrong once Game OVER!
+1. If you are wrong once Quiz OVER!
 2. There are 20 questions
 3. Lets start!
 
 ''')
 time.sleep(4)
-print('Compiling the Quiz ...')
+print(ar + Fore.GREEN + 'Compiling the Quiz ...')
 time.sleep(0.5)
-print(Fore.GREEN + 'Reached target Quiz core ...')
+print(ar + Fore.GREEN + 'Reached target Quiz core ...')
 time.sleep(0.5)
-print(Fore.YELLOW + 'Using  v1.1 ...')
+print(ar + Fore.YELLOW + 'Using  v1.2 ...')
 time.sleep(0.5)
-print(Fore.GREEN + 'Reaced Target Quiz ')
+print(ar + Fore.GREEN + 'Reaced Target Quiz ')
 time.sleep(0.9)
-print('Initialising Game ....')
-print(Fore.GREEN + 'Started Game!')
+print(ar + Fore.GREEN + 'Initialising Quiz ....')
+print('                     ')
+print(ar + Fore.GREEN + 'Started Quiz!')
 time.sleep(2)
 print('3')
 time.sleep(0.5)
@@ -74,7 +76,6 @@ print('Go!')
 time.sleep(0.5)
 
 print('                                                   ')
-# Creating a clear screen method because python desnt have it :(
 
 def clear():
     # For windows
@@ -88,7 +89,6 @@ def clear():
 clear()
 time.sleep(0.5)
 # game starts
-# TODO make this random
 # Print the first question
 print(a)
 print('                                                                    ')
@@ -203,7 +203,7 @@ if ab == "d":
     time.sleep(2)
     print("You have Earned one point  ")
     print('                                                                     ')
-    print(Fore.CYAN + "You score is  " + str(answers))
+    print(Fore.CYAN + "You total score is:  " + str(answers))
     time.sleep(2)
 
 
@@ -214,7 +214,7 @@ elif ab == "a":
     time.sleep(1)
     print("You dont get any points for this answer")
     print('                                                                     ')
-    print(Fore.CYAN + "You score is  " + str(answers))
+    print(Fore.CYAN + "You total score is:  " + str(answers))
     time.sleep(2)
 
 elif ab == "b":
@@ -224,7 +224,7 @@ elif ab == "b":
     time.sleep(1)
     print("You dont get any points for this answer")
     print('                                                                     ')
-    print(Fore.CYAN + "You score is" + str(answers) + " Correct")
+    print(Fore.CYAN + "You total score is:" + str(answers) + " Correct")
     time.sleep(2)
 
 elif ab == "c":
@@ -232,7 +232,7 @@ elif ab == "c":
     print(Fore.RED + 'Wrong answer!')
     print('                                                                     ')
     time.sleep(2)
-    print(Fore.CYAN + "Your score is  " + str(answers))
+    print(Fore.CYAN + "Your total score is: " + str(answers))
     print('                                                                     ')
     print("You dint get any points from this answer ")
     time.sleep(2)
@@ -273,7 +273,7 @@ if ac == "a":
     print(Fore.GREEN + 'Nice! correct answer')
     time.sleep(2)
     print('                                                                     ')
-    print(Fore.CYAN + "You score is   " + str(answers))
+    print(Fore.CYAN + "You total score is: " + str(answers))
     time.sleep(0.5)
     print('                                                                     ')
     print('You have got 1 point from this answer')
@@ -288,7 +288,7 @@ elif ac == "d":
     print("You dont get any points for this answer")
     time.sleep(1)
     print('                                                                     ')
-    print(Fore.CYAN + "You score is   " + str(answers))
+    print(Fore.CYAN + "You total score is: " + str(answers))
     time.sleep(2)
 
 elif ac == "b":
@@ -300,7 +300,7 @@ elif ac == "b":
     print("You dont get any points for this answer")
     print('                                                                     ')
     time.sleep(1)
-    print(Fore.CYAN + "Your score is  " + str(answers) )
+    print(Fore.CYAN + "Your total score is:  " + str(answers) )
     time.sleep(2)
 
 elif ac == "c":
@@ -386,15 +386,18 @@ else:
     print('                                                                     ')
 
 
+print('                                          Results                                                                     ')
+print('  ')
+
 if answers == 4:
-    print(Fore.GREEN + "Nice you are intelligent ^_^ ")
+    print(ar + Fore.GREEN + "Nice you are intelligent ^_^ ")
 
 elif answers == 3:
-    print(Fore.LIGHTGREEN_EX + 'Good! But you have scope to improve')
+    print(ar + Fore.LIGHTGREEN_EX + 'Good! But you have scope to improve')
 
 elif answers == 2:
-    print(Fore.YELLOW + 'Good try you gave it your all')
+    print(ar + Fore.YELLOW + 'Good try you gave it your all')
 
 else:
-    print(Fore.RED + 'Try again next time')
+    print(ar + Fore.RED + 'Try again next time')
 
