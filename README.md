@@ -19,3 +19,16 @@ Project layout
     │  ├─ main/         Quiz     
     |  ├─ image/        Initialising of images
     ├─ images/          All the images used 
+
+# Example
+- Image of the Graphical User Interface
+-------------------------------------------------
+![image](https://github.com/pynvimdev/Space_App/blob/main/art/Screenshot%202021-10-06%20162830.png)
+
+-------------------------------------
+
+- Example of the quiz
+![image](https://github.com/pynvimdev/Space_App/blob/main/art/Quiz.png)
+------------------------------------
+
+### Thank You
