@@ -9,3 +9,5 @@ run the install.bat inside the installers folder to install the code and depende
 
 - Linux and Mac 
 run the install.sh
+
+# Example
