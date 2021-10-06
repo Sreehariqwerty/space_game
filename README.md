@@ -28,7 +28,9 @@ Project layout
 -------------------------------------
 
 - Example of the quiz
+
 ![image](https://github.com/pynvimdev/Space_App/blob/main/art/Quiz.png)
+
 ------------------------------------
 
 ### Thank You
